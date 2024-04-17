@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    }
+
+    .header {
+    color: white;    
+    text-align: center;
+    padding: 20px;
+    background-color: yellow;
+    }
+
+    .form-container {
+      width: 700px; /* Ancho del formulario */
+      height: 200px; /*Altura del formulario */
+      margin: 20px auto; /*Centrar el formulario */
+      color: black;  /*Color de las letras dentro del formulario (No incluido en campos */
+      background-color: gray; /*Color del formulario */
+      text-align: center; /*Centra las palabras */
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 10px; /*Hace bordes circulares */
+      box-shadow: 0 0 50px rgba(0, 255, 0, 0.5); /*Sombra verde en los alredores */
+    }
+
+    .text-field {
+      background-color: white; /*Color blanco de los campos*/
+      color: white;
+      padding: 10px;
+      margin: 5px;
+      border: none;
+      border-radius: 5px;
+      width: 400px; 
+    }
+
+    .submit-btn {
+      background-color: peachpuff;  /*Color del boton */
+      color: black;              /*Color de la letra dentro del boton */
+      padding: 15px 30px;          /*Altura del boton */
+      border: none;
+      border-radius: 5px;          /*Circulo de los lados del boton */
+      cursor: pointer;
+      width: 480px;                /*Ancho del boton */
+    }
+
+    .form-text {
+      display: inline-block;
+      color: black;
+      font-weight: bold;
+      margin-bottom: 5px;
+      text-align: left; 
+    }
+
+    .copyright {
+      background-color: orange; 
+      text-align: center;
+      padding: 10px;
+    }
